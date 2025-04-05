@@ -202,7 +202,7 @@ header {
 .contenedor-imagen p{
 	width: 50%;
 	text-align: center;
-	font-size: 16pt;
+	font-size: 12pt;
 	font-style: italic;
 	display: flex; /*sera un elemento/item de tipo flex*/
 }
@@ -226,7 +226,7 @@ header {
 	width: 80%;
 	text-align: center;
 	font-style: italic;
-	font-size: 16pt;
+	font-size: 12pt;
 	display: flex; /*sera un elemento/item de tipo flex*/
 }
 .contenedor-imagen-secc4 img{
