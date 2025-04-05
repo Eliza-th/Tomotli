@@ -1,0 +1,252 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Tomohtli</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">¿Quénes somos?</a>
+          <a href="#secc2">Misión</a>
+          <a href="#secc3">Visión</a>
+          <a href="#secc4">Nuestros productos</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			 <br><!--etiqueta para un brinco de renglón-->
+		        <h1>¿Quiénes somos?</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		         <br><!--etiqueta para un brinco de renglón-->
+		        <p>Somos una asociación dedicada al diseño e innovación de prendas elaboradas con
+tejidos tradicionales los cuales están elaborados por artesanos del estado de Tlaxcala,
+principalmente de la región de Contla de Juan Cuamatzi. Durante nuestros siete años de
+trayectoria nos hemos encargado de	transformar ideas en realidades, retomamos como eje
+principal el fomento de la identidad cultural y conservación de la tradición textil mediante un
+diseño moderno y original.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Nuestros productos están elaborados con materiales de origen natural, recuperando técnicas ancestrales, resaltándo el uso de fibras como el algodón y la lana, mismas que son teñidas mediante el uso de tintes naturales dando como resultado colores únicos de gran belleza.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <br>
+ 
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    			
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Empleamos técnicas de tejido tradicional.</p>
+        		</div>
+        		<br>
+    				<br>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    				<br>
+    				<br>
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+
+		        <h1>Misión</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br>
+		        
+
+		        <p>Nuestra misión es crear prendas únicas
+y de alta calidad que celebren la rica
+herencia artesanal, fusionando
+tradición y diseño contemporáneo.
+<br>
+<br>
+Nos dedicamos a apoyar a los
+artesanos locales, promoviendo
+prácticas sostenibles y ofreciendo a
+nuestros clientes piezas exclusivas que
+reflejan autenticidad, creatividad y
+responsabilidad social.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		      
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Tejido en telar de pedal con hilos de lana teñidos con tintes naturales.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<br>
+		        <h1>Visión</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br>
+
+		        <p>Ser una marca líder en moda artesanal,
+reconocida mundialmente por nuestra
+innovación en el diseño, compromiso
+con la sostenibilidad y respeto por las
+tradiciones culturales.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Aspiramos a
+transformar la industria de la moda,
+destacando la importancia de la
+artesanía y el trabajo manual en un
+mercado global, y estableciendo nuevos
+estándares de excelencia y ética en cada
+una de nuestras prendas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Empleamos materiales naturales y prácticas respetuosas con el.</p>
+    		</div>
+
+    	</div>
+    	<br>
+    	<br>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Nuestros productos</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br>
+		        <p>Te ofrecemos
+productos de la más alta calidad,
+utilizando materiales seleccionados y
+técnicas artesanales que aseguren la
+durabilidad y belleza de cada prenda.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Combinamos tradición con
+innovación adaptandonos a la
+epoca moderna, sin perder la
+esencia artesanal ancestral en
+cada una de nuestras creaciones.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+
+    			<bra href="https://drive.google.com/file/d/1g0qSvoXiZEJCpPB3oUV5wBJ8nzyKjPij/view?usp=sharing">
+
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>Da clic y conoce la nueva línea de productos que Tomohtli trae para tí. O escanea los códigos para ver la línea de dama y caballero.</p>
+        		
+
+    		</div>
+
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
